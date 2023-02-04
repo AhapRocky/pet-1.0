@@ -1,0 +1,94 @@
+// Fonts
+@import "fonts";
+// Variables
+@import "variables";
+
+// Main
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: $textColor;
+  &._lock {
+    overflow: hidden;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: $mainColor;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: $textColor;
+}
+
+.text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.block-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+@import "header";
+@import "./home/top";
+@import "./home/about";
+@import "./home/advantages";
+@import "./home/directions";
+@import "./home/certificates";
+@import "./home/start";
+@import "./home/contacts";
+@import "footer";

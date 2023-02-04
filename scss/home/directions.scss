@@ -1,0 +1,23 @@
+@import "../variables";
+// Directions
+.directions {
+  background-color: $bgColor;
+  padding: 60px 0;
+}
+.directions__title {
+}
+.directions__inner {
+}
+.info-directions {
+  max-width: 596px;
+}
+.info-directions__title {
+  margin-bottom: 25px;
+}
+.info-directions__text {
+}
+.directions__img {
+  img {
+    max-width: 100%;
+  }
+}

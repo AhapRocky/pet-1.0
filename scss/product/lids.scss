@@ -1,0 +1,24 @@
+@import "../variables";
+.lids {
+  padding: 60px 0;
+  background-color: $bgColor;
+}
+.lids__title {
+}
+.lids__inner {
+}
+.lids__info {
+  max-width: 596px;
+}
+.info-lids {
+}
+.info-lids__title {
+  margin-bottom: 25px;
+}
+.info-lids__text {
+}
+.lids__img {
+  img {
+    max-width: 100%;
+  }
+}

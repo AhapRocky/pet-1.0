@@ -1,0 +1,19 @@
+@import "variables";
+@import "style";
+@import "header";
+@import "footer";
+.product {
+  padding-top: 200px;
+}
+
+.swiper {
+  // width: 600px;
+  // height: 300px;
+}
+
+.swiper-slide__img {
+  img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+}

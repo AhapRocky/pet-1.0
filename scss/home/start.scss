@@ -1,0 +1,49 @@
+@import "../variables";
+// Start
+.start {
+  background-color: $bgColor;
+}
+.start__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+.start__info {
+}
+.info-start {
+  max-width: 100%;
+  width: 600px;
+}
+.info-start__title {
+}
+.info-start__text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.info-start__btns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+.info-start__btn {
+  padding: 12px 40px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  border-radius: 6px;
+  color: $white;
+  display: inline-block;
+  background-color: $btnColor;
+  border: 2px solid $btnColor;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: $btnColor;
+    background-color: $white;
+  }
+}

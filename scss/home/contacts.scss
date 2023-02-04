@@ -1,0 +1,142 @@
+@import "../variables";
+// Contacts
+.contacts {
+  padding: 60px 0;
+}
+.info-contacts__wrapper {
+}
+.info-contacts__text {
+  &:last-child {
+    margin-bottom: 15px;
+  }
+}
+.contacts__title {
+}
+.contacts__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 99%;
+    background-color: $mainColor;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -45%);
+  }
+}
+.contacts__info {
+}
+.info-contacts {
+}
+.info-contacts__title {
+  margin-bottom: 20px;
+}
+.info-contacts__list {
+  max-width: 400px;
+}
+.info-contacts__item {
+  margin-bottom: 20px;
+  &--phone {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 25px;
+      height: 25px;
+      background-image: url("../images/phone.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  &--mail {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 25px;
+      height: 25px;
+      background-image: url("../images/mail.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  &--map {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 25px;
+      height: 25px;
+      background-image: url("../images/map.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+.info-contacts__link {
+  display: inline-block;
+  font-size: 20px;
+  color: $mainColor;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+  padding-left: 40px;
+  position: relative;
+  z-index: 5;
+  &:hover {
+    color: $btnColor;
+  }
+}
+.info-contacts__socials {
+}
+.socials {
+  display: flex;
+  column-gap: 30px;
+}
+.socials__item {
+  transition: transform 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.socials__link {
+  svg {
+    path {
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  &:hover {
+    transform: scale(2);
+    svg {
+      path {
+        fill: $mainColor;
+      }
+    }
+  }
+}
+.socials__link--instagram {
+}
+.socials__link--telegram {
+}
+.socials__link--viber {
+}
+.contacts__map {
+}
+.contacts__map-wrapper {
+  iframe {
+  }
+}

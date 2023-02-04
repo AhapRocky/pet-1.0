@@ -1,0 +1,52 @@
+@import "../variables";
+@import "../style";
+// @import "../header";
+// @import "../footer";
+.product {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: $bgColor;
+}
+.product__wrapper {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.product__slider {
+  max-width: 950px;
+
+  .swiper-wrapper {
+  }
+  .swiper-slide {
+  }
+  .swiper-slide__wrapper {
+  }
+  .swiper-slide__img {
+    img {
+      width: 375px;
+      max-width: 100%;
+    }
+  }
+  .swiper-slide__info {
+    background-color: $mainColor;
+    color: $white;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+.swiper__btns {
+}
+.swiper-button {
+}
+.swiper-button-prev,
+.swiper-button-next {
+  &:after {
+    color: $mainColor;
+  }
+}
+.swiper-button-next {
+}
+@import "tare";
+@import "lids";

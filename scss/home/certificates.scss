@@ -1,0 +1,32 @@
+@import "../variables";
+// Certificates
+.certificates {
+  padding: 60px 0;
+}
+.certificates__inner {
+}
+.certificates__info {
+}
+.info-certificates {
+}
+.info-certificates__title {
+}
+.info-certificates__subtitle {
+  font-family: "Montserrat";
+  font-size: 36px;
+  line-height: 50px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-bottom: 80px;
+}
+.certificates__gallery {
+}
+.gallery-certificates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 173px);
+  column-gap: 84px;
+  row-gap: 64px;
+  justify-content: center;
+}
+.gallery-certificates__item {
+}
